@@ -68,7 +68,7 @@
     nav.toc a { color: var(--muted); text-decoration: none; }
     nav.toc a:hover, nav.toc a:focus-visible { color: var(--accent); }
   }
-  main { min-width: 0; display: grid; gap: 48px; }
+  main { min-width: 0; display: grid; gap: 48px; grid-template-columns: minmax(0, 1fr); }
   .eyebrow { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
   h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.25; margin: 6px 0 12px; text-wrap: balance; font-weight: 700; }
   h2 { font-size: 22px; line-height: 1.35; margin: 0 0 14px; text-wrap: balance; }
